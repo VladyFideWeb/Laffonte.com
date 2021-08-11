@@ -1,0 +1,91 @@
+.main
+	.BloqueCentrado
+		background: #000
+		margin: 0em -1.2em
+		.Uno
+			background: #fff
+			p
+				font-size: 2.1em			//	1em =16px
+				text-align: center			// 	Alineación Horizntal
+				font-weight: 400
+				color: $negro
+				margin: 23px 0px -14px 0px 
+			.UnoHijo
+				display: flex
+				justify-content: center
+		.Dos
+			background: $blanco
+			display: flex
+			justify-content: center
+			.CardPrecio
+				margin-top: 40px
+				margin-bottom: 40px
+				width: 300px
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35)
+				box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35)
+				.Costo
+					text-align: center		//	Justificado Horizntal
+					font-size: 30px
+					margin: 0
+				.CuerpoCard
+					padding: 10px 20px
+					.Contenedor1
+						h3
+							text-align: center
+							font-size: 27px
+						p
+							text-align: center
+							font-size: 22px
+							color: $verde
+							font-weight: 500
+					.Contenedor2
+						display: flex
+						justify-content: center
+						.BotonCardIrAlCurso
+							border-color: $verde
+							color: $verde
+							&:hover
+								background: $verde
+								color: $blanco	
+				.CentradoBotonPrecio
+					display: flex
+					justify-content: center
+					.BotonPrecio
+						cursor: default
+						background: $rojo
+						color: $blanco
+						text-decoration: none
+						font-size: 1.8em
+						padding: 3px 21px
+						margin-top: 10px
+	.container
+		.Temario
+			p
+				font-size: 30px
+				font-weight: 400
+				text-align: center
+	.Tema 
+		border-color: $verde
+		color: $negro
+		background: $blanco
+		padding: 12px
+		p
+			font-weight: 400
+			margin: 0
+		&:hover
+			background: $violeta
+			border-color: $violeta
+			color: $blanco
+	.Col1
+		display: flex
+		padding: 0
+		justify-content: center
+		background: #fff
+		p
+			margin: 0
+			text-align: center
+			font-size: 20px
+			font-weight: 500
+			color: $verde
+	
+		

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"><!--Accediendo a los iconos-->
+	<link rel="stylesheet" href="css/estiloscurso.css">
+	<title>Laffonte-Cálculo Diferencial</title>
+</head>
+<body>
+<div class="ContenedorGeneral"><!--Div que resuelve el problema de la barra de desplazamiento horizontal-->
+	<header>
+<!--con navbar-expand-md le estamos diciendo al programa que esconda el menú de navegación y lo reemplaze con el botón de menpu desplegable
+a partir del tamaño md-->	
+		<nav class="MenuNav navbar navbar-expand-md navbar-dark fixed-top">
+			<a href="index.html" class="navbar-brand">Laffonte</a>
+			
+<!--Botón para desplegar el menú de navegación cuando nos el usuario entra a la página WEB desde dispositivos de tamaño tablet o más pequeños
+-->
+			<button class="navbar-toggler" type="buton" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="BotonDesplegable navbar-toggler-icon"></span>
+			</button>
+<!-- id="navbar" es el id del menú de navegación-->			
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+<!--Submenú del menú desplegable de Cursos-->				
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-cursos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Cursos
+						</a>
+						<div class="Elementos dropdown-menu" aria-labelledby="menu-cursos">
+							<a href="Algebra.html" class="dropdown-item">Algebra Elemental-ingreso Politécnico</a>
+							<a href="Calculo-Diferencial.html" class="dropdown-item">Cálculo Diferencial-ingreso Politécnico</a>
+							<a href="Calculo-Integral.html" class="dropdown-item">Cálculo Integral-ingreso Politécnico</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://www.youtube.com/watch?v=J_XJ39nwK5E&t=1132s" class="nav-link">Conoceme</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	
+	</header>
+	
+	<section class="main">
+		<div class="BloqueCentrado row">
+			<div class="Uno col-12 col-sm-8">
+				<p>Cálculo Diferencial-Ingreso IPN<p>
+				<div class="UnoHijo">
+					<video class="video" height="350px" controls>
+						<source src="media/Video2Ejercicios1.3.mp4">	
+					</video>
+				</div>
+			</div>
+			<div class="Dos col-12 col-sm-4">
+				<div class="CardPrecio card">	<!--Agregando la card-->
+					<div class="CentradoBotonPrecio">
+						<div class="BotonPrecio btn btn-md">MX $50</div>
+					</div>
+					<div class="CuerpoCard card-body">
+						<div class="Contenedor1">
+							<div>
+								<h3 class="card-title">Cálculo Diferencial-Ingreso IPN</h3>
+							</div>
+						</div>
+						<p class="Autor">Por: Vladymir Fidel Hernández </p>
+						<p class="TextoCurso card-text">En este curso aprenderás desde cero todo lo que necesitas de Cálculo Diferencial para presentar el exámen de admisión al Politécnico.</p>							
+						<div class="Contenedor2">
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="JLR45PMUYFFBC">
+								<input class="PaypalPagar" type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+								<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<main class="container">
+		<div class="row">
+			<div class="Temario col-12">
+				<hr/>
+				<p>Imagenes del curso</p>
+			</div>
+			<div class="col-12">
+				<div class="carousel slide" id="slideshow" data-ride="carousel"><!--Creando el carrusel-->
+					<!--Indicadores-->
+					<ol class="carousel-indicators">
+						<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+						<li data-target="#slideshow" data-slide-to="1"></li>
+						<li data-target="#slideshow" data-slide-to="2"></li>
+					</ol>
+					
+					<!--Slides-->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="media/s1.jpg" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/s2.jpg" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="media/s3.jpg" class="d-block w-100" alt="">
+						</div>
+					</div>
+					<!--Controles-->
+					<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><!--igualando el id: id="slideshow"-->
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span><!--Se pone texto por si se entra a la pág. con un dispositivo que no pueda leer icons-->
+					</a>
+					<a href="#slideshow" class="carousel-control-next" data-slide="next"><!--igualando el id: id="slideshow"-->
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span><!--Se pone texto por si se entra a la pág. con un dispositivo que no pueda leer icons-->
+					</a>
+				</div>
+			</div>
+			<div class="Temario col-12">
+				<hr/>
+				<p>Temario del curso</p>
+			</div>
+		</div>
+	</main>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="col">
+					<div class="list-group">
+						<div class="Tema list-group-item list-group-item-action list-group-item-success"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-info"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-success"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-danger"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-light"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-dark"><p>Tema 1: Expresiones Algebraicas</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="col">
+					<div class="list-group">
+						<div class="Tema list-group-item list-group-item-action list-group-item-success"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-info"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-warning"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-danger"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-light"><p>Tema 1: Expresiones Algebraicas</p></div>
+						<div class="Tema list-group-item list-group-item-action list-group-item-dark"><p>Tema 1: Expresiones Algebraicas</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="row">
+			<div class="Contacto col-12 col-md-6">
+				<h4 class="TituloContacto">Contacto</h4>
+				<p class="Correo">correo@correo.com</p>
+				<div class="CentradoNumero">
+					<div class="IconoWhats">
+						<div class="whatsapp"><i class="fa fa-whatsapp"></i></div>
+					</div>
+					<div>	
+						<p>Mi Número de teléfono personal: 2281393170</p>
+					</div>
+				</div>
+			</div>
+			<div class="Iconos col-12 col-md-6">
+				<h3 class="TituloContacto2">¿Quieres conocerme?</h3>
+				<a target="_blank" href="https://www.youtube.com/channel/UC0EkppPk4grAiUE3KMw0h5w?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
+				<a target="_blank" href="https://www.facebook.com/vladsson.hernandezgonzalez" class="facebook"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.instagram.com/vladymirfidelhernandez/" class="instagram"><i class="fa fa-instagram"></i></a>	
+			</div>
+		</div>
+		<div class="Negro row">
+			<div class="col-12">
+				<p>Laffonte-2020</p>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</div>	
+</body>
+</html>

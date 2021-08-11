@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
+  background: #fff; }
+
+.ContenedorGeneral {
+  width: 97%;
+  max-width: auto;
+  margin: auto; }
+
+header .MenuNav {
+  padding: 0em 2.5em;
+  background: #603085;
+  font-size: 1.3em; }
+  header .MenuNav a {
+    color: #000; }
+
+.main .BloqueCentrado {
+  background: #000;
+  margin: 0em -1.2em; }
+  .main .BloqueCentrado .Uno {
+    background: #fff; }
+    .main .BloqueCentrado .Uno p {
+      font-size: 2.1em;
+      text-align: center;
+      font-weight: 400;
+      color: #000;
+      margin: 23px 0px -14px 0px; }
+    .main .BloqueCentrado .Uno .UnoHijo {
+      display: flex;
+      justify-content: center; }
+  .main .BloqueCentrado .Dos {
+    background: #fff;
+    display: flex;
+    justify-content: center; }
+    .main .BloqueCentrado .Dos .CardPrecio {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 300px;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35); }
+      .main .BloqueCentrado .Dos .CardPrecio .Costo {
+        text-align: center;
+        font-size: 30px;
+        margin: 0; }
+      .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+        padding: 10px 20px; }
+        .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+          text-align: center;
+          font-size: 27px; }
+        .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+          text-align: center;
+          font-size: 22px;
+          color: #99CC33;
+          font-weight: 500; }
+        .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+          border-color: #99CC33;
+          color: #99CC33; }
+          .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso:hover {
+            background: #99CC33;
+            color: #fff; }
+      .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio {
+        display: flex;
+        justify-content: center; }
+        .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio .BotonPrecio {
+          background: #ff0000;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.8em;
+          padding: 3px 21px;
+          margin-top: 10px; }
+.main .container .Temario p {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center; }
+.main .Tema {
+  border-color: #99CC33;
+  color: #000;
+  background: #fff;
+  padding: 12px; }
+  .main .Tema p {
+    font-weight: 400;
+    margin: 0; }
+  .main .Tema:hover {
+    background: #603085;
+    border-color: #603085;
+    color: #fff; }
+.main .Col1 {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  background: #fff; }
+  .main .Col1 p {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #99CC33; }
+
+footer {
+  background: #f2f2f2;
+  margin: 0em -1.2em;
+  padding: 0em 1.2em; }
+  footer .Negro {
+    background: #000;
+    color: #fff;
+    margin: 0em -1.2em;
+    text-align: center;
+    padding: 10px 0; }
+    footer .Negro p {
+      margin: auto; }
+  footer .Contacto {
+    padding: 20px 0; }
+    footer .Contacto .TituloContacto {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Contacto .Correo {
+      text-align: center;
+      margin-bottom: 8px; }
+    footer .Contacto .CentradoNumero {
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+      footer .Contacto .CentradoNumero a {
+        padding: 0px;
+        display: inline-block;
+        margin: 0 20px;
+        width: 50px;
+        font-size: 22px;
+        color: #fff;
+        background: #000;
+        border-radius: 100px; }
+        footer .Contacto .CentradoNumero a.whatsapp {
+          background: #25d366; }
+      footer .Contacto .CentradoNumero p {
+        margin: 5px -9px; }
+  footer .Iconos {
+    text-align: center;
+    padding: 20px 0; }
+    footer .Iconos .TituloContacto2 {
+      text-align: center;
+      margin-bottom: 8px;
+      color: #603085; }
+    footer .Iconos a {
+      padding: 10px;
+      display: inline-block;
+      margin: 0 20px;
+      width: 50px;
+      font-size: 22px;
+      color: #fff;
+      background: #000;
+      border-radius: 100px; }
+      footer .Iconos a.youtube {
+        background: #ff0000; }
+      footer .Iconos a.facebook {
+        background: #3b5998; }
+      footer .Iconos a.instagram {
+        background: #833ab4; }
+
+@media screen and (max-width: 2560px) {
+  body {
+    padding-top: 88px; }
+    body .ContenedorGeneral {
+      width: 98%; }
+      body .ContenedorGeneral header .MenuNav {
+        font-size: 44px; }
+        body .ContenedorGeneral header .MenuNav .navbar-brand {
+          font-size: 50px; }
+        body .ContenedorGeneral header .MenuNav .Elementos a {
+          font-size: 30px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Uno p {
+        font-size: 54px;
+        margin: 1px 0px 3px 0px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Uno .UnoHijo .video {
+        height: 500px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio {
+        width: 394px; }
+        body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio .BotonPrecio {
+          font-size: 35px; }
+        body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+          padding: 10px 25px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+            font-size: 35px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+            font-size: 32px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+            font-size: 24px;
+            margin-bottom: 7px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+            font-size: 24px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+            font-size: 26px; }
+      body .ContenedorGeneral .main .container {
+        max-width: 1630px; }
+        body .ContenedorGeneral .main .container .Temario p {
+          font-size: 50px; }
+      body .ContenedorGeneral .main .Tema {
+        font-size: 30px; }
+      body .ContenedorGeneral .main .Col1 p {
+        font-size: 40px; }
+      body .ContenedorGeneral .main .Col1 .video {
+        width: 820px; }
+      body .ContenedorGeneral .main .Top {
+        margin-top: 40px; }
+      body .ContenedorGeneral .main .Top2 {
+        margin-top: 40px; }
+      body .ContenedorGeneral footer .Contacto .TituloContacto {
+        font-size: 46px; }
+      body .ContenedorGeneral footer .Contacto .Correo {
+        font-size: 37px; }
+      body .ContenedorGeneral footer .Contacto .CentradoNumero a {
+        font-size: 37px; }
+      body .ContenedorGeneral footer .Contacto .CentradoNumero p {
+        font-size: 37px; }
+      body .ContenedorGeneral footer .Iconos a {
+        font-size: 37px;
+        width: 75px; }
+      body .ContenedorGeneral footer .Iconos .TituloContacto2 {
+        font-size: 46px;
+        margin-bottom: 33px; }
+      body .ContenedorGeneral footer .Negro p {
+        font-size: 44px; } }
+@media screen and (max-width: 1440px) {
+  body {
+    padding-top: 40px; }
+    body .ContenedorGeneral {
+      width: 97%; }
+      body .ContenedorGeneral header .MenuNav {
+        padding: 0em 2.5em;
+        font-size: 1.3em; }
+        body .ContenedorGeneral header .MenuNav .navbar-brand {
+          font-size: 1.25rem; }
+        body .ContenedorGeneral header .MenuNav .Elementos a {
+          font-size: 1rem; }
+      body .ContenedorGeneral .main .BloqueCentrado .Uno p {
+        font-size: 2.1em;
+        margin: 23px 0px -14px 0px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Uno .UnoHijo .video {
+        height: 350px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio {
+        width: 300px; }
+        body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio .BotonPrecio {
+          font-size: 1.8em; }
+        body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+          padding: 10px 20px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+            font-size: 27px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+            font-size: 22px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+            font-size: 16px;
+            margin-bottom: 16px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+            font-size: 16px; }
+          body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+            font-size: 16px; }
+      body .ContenedorGeneral .main .container {
+        width: 1140px; }
+        body .ContenedorGeneral .main .container .Temario p {
+          font-size: 30px; }
+      body .ContenedorGeneral .main .Tema {
+        font-size: 16px; }
+      body .ContenedorGeneral .main .Col1 p {
+        font-size: 20px; }
+      body .ContenedorGeneral .main .Col1 .video {
+        width: 430px; }
+      body .ContenedorGeneral .main .Top {
+        margin-top: 22px; }
+      body .ContenedorGeneral .main .Top2 {
+        margin-top: 22px; }
+      body .ContenedorGeneral footer .Contacto .TituloContacto {
+        font-size: 24px; }
+      body .ContenedorGeneral footer .Contacto .Correo {
+        font-size: 16px; }
+      body .ContenedorGeneral footer .Contacto .CentradoNumero a {
+        font-size: 22px; }
+      body .ContenedorGeneral footer .Contacto .CentradoNumero p {
+        font-size: 16px; }
+      body .ContenedorGeneral footer .Iconos a {
+        font-size: 22px;
+        width: 50px; }
+      body .ContenedorGeneral footer .Iconos .TituloContacto2 {
+        font-size: 28px;
+        margin-bottom: 8px; }
+      body .ContenedorGeneral footer .Negro p {
+        font-size: 16px; } }
+@media screen and (max-width: 1024px) {
+  body .ContenedorGeneral .main .BloqueCentrado .Uno p {
+    font-size: 30px;
+    margin: 14px 0px -12px 0px; }
+  body .ContenedorGeneral .main .BloqueCentrado .Uno .UnoHijo .video {
+    height: 350px; }
+  body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio {
+    width: 260px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio .BotonPrecio {
+      font-size: 24px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+      font-size: 22px;
+      margin-bottom: 10px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+      font-size: 21px;
+      margin-bottom: 10px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+      font-size: 15px;
+      margin-bottom: 12px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+      font-size: 15px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+      font-size: 15px; }
+  body .ContenedorGeneral .main .container {
+    width: 850px; }
+    body .ContenedorGeneral .main .container .Temario p {
+      font-size: 30px; }
+  body .ContenedorGeneral .main .Tema {
+    font-size: 16px; }
+  body .ContenedorGeneral .main .Col1 p {
+    font-size: 20px; }
+  body .ContenedorGeneral .main .Col1 .video {
+    width: 332px; }
+  body .ContenedorGeneral .main .Top {
+    margin-top: 32px; }
+  body .ContenedorGeneral .main .Top2 {
+    margin-top: 22px; } }
+@media screen and (max-width: 767px) {
+  body .ContenedorGeneral header .MenuNav {
+    font-size: 1.1em; }
+    body .ContenedorGeneral header .MenuNav .navbar-brand {
+      font-size: 1.25rem; }
+    body .ContenedorGeneral header .MenuNav .Elementos a {
+      font-size: 14px; }
+  body .ContenedorGeneral .main .BloqueCentrado .Uno p {
+    font-size: 28px; }
+  body .ContenedorGeneral .main .BloqueCentrado .Uno .UnoHijo .video {
+    height: 250px; }
+  body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio {
+    width: 212px;
+    margin: 39px 0px 15px 0px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CentradoBotonPrecio .BotonPrecio {
+      font-size: 18px; }
+    body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard {
+      padding: 10px 15px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 h3 {
+        font-size: 15px;
+        margin-bottom: 5px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor1 p {
+        font-size: 14px;
+        margin-bottom: 5px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Autor {
+        font-size: 12px;
+        margin-bottom: 4px; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .TextoCurso {
+        font-size: 12px;
+        margin-bottom: 8px;
+        text-align: justify; }
+      body .ContenedorGeneral .main .BloqueCentrado .Dos .CardPrecio .CuerpoCard .Contenedor2 .BotonCardIrAlCurso {
+        font-size: 12px; }
+  body .ContenedorGeneral .main .container {
+    width: 632px; }
+    body .ContenedorGeneral .main .container .Temario p {
+      font-size: 22px;
+      margin-bottom: 12px; }
+  body .ContenedorGeneral .main .Tema {
+    font-size: 15px;
+    padding: 9px; }
+  body .ContenedorGeneral .main .Col1 {
+    margin-bottom: 12px; }
+    body .ContenedorGeneral .main .Col1 p {
+      font-size: 20px; }
+    body .ContenedorGeneral .main .Col1 .video {
+      width: 490px; }
+  body .ContenedorGeneral .main .Top {
+    margin-top: 22px; }
+  body .ContenedorGeneral .main .Top2 {
+    margin-top: 0px; }
+  body .ContenedorGeneral footer .Contacto .TituloContacto {
+    font-size: 24px; }
+  body .ContenedorGeneral footer .Contacto .Correo {
+    font-size: 21px; }
+  body .ContenedorGeneral footer .Contacto .CentradoNumero a {
+    font-size: 22px; }
+  body .ContenedorGeneral footer .Contacto .CentradoNumero p {
+    font-size: 21px; }
+  body .ContenedorGeneral footer .Iconos a {
+    font-size: 22px;
+    width: 50px; }
+  body .ContenedorGeneral footer .Iconos .TituloContacto2 {
+    font-size: 28px;
+    margin-bottom: 8px; }
+  body .ContenedorGeneral footer .Negro p {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=estiloscurso.csss.map */
